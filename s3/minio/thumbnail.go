@@ -29,11 +29,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/s3"
 	"github.com/chai2010/webp"
 	"github.com/minio/minio-go/v7"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/s3"
 )
 
 func (m *Minio) getImageThumbnailURL(ctx context.Context, name string, expire time.Duration, opt *s3.Image) (string, error) {

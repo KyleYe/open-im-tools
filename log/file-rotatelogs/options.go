@@ -1,7 +1,7 @@
 package rotatelogs
 
 import (
-	"github.com/openimsdk/tools/log/file-rotatelogs/internal/option"
+	"github.com/KyleYe/open-im-tools/log/file-rotatelogs/internal/option"
 	"time"
 )
 

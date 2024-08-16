@@ -1,4 +1,4 @@
-module github.com/openimsdk/tools
+module github.com/KyleYe/open-im-tools
 
 go 1.21
 
@@ -6,6 +6,7 @@ toolchain go1.21.8
 
 require (
 	github.com/IBM/sarama v1.43.0
+	github.com/KyleYe/open-im-protocol v0.0.80
 	github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible
 	github.com/aws/aws-sdk-go-v2 v1.23.1
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.5.1 // indirect
@@ -32,7 +33,6 @@ require (
 	github.com/jinzhu/copier v0.4.0
 	github.com/magefile/mage v1.15.0
 	github.com/minio/minio-go/v7 v7.0.69
-	github.com/openimsdk/protocol v0.0.69-alpha.4
 	github.com/pkg/errors v0.9.1
 	github.com/qiniu/go-sdk/v7 v7.18.2
 	github.com/redis/go-redis/v9 v9.2.1
@@ -74,7 +74,6 @@ require (
 )
 
 require (
-	github.com/Kagami/go-avif v0.1.0
 	github.com/chai2010/webp v1.1.1
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/lestrrat-go/strftime v1.0.6

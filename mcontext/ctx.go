@@ -17,8 +17,8 @@ package mcontext
 import (
 	"context"
 
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 var mapper = []string{constant.OperationID, constant.OpUserID, constant.OpUserPlatform, constant.ConnID}

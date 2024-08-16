@@ -15,10 +15,10 @@
 package datautil
 
 import (
+	"github.com/KyleYe/open-im-tools/db/pagination"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/jsonutil"
 	"github.com/jinzhu/copier"
-	"github.com/openimsdk/tools/db/pagination"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
 	"math/rand"
 	"reflect"
 	"sort"

@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"reflect"
 
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/utils/jsonutil"
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/utils/jsonutil"
 )
 
 type ApiResponse struct {

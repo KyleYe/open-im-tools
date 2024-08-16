@@ -21,14 +21,14 @@ import (
 	"path/filepath"
 	"time"
 
-	rotatelogs "github.com/openimsdk/tools/log/file-rotatelogs"
-	"github.com/openimsdk/tools/utils/stringutil"
+	rotatelogs "github.com/KyleYe/open-im-tools/log/file-rotatelogs"
+	"github.com/KyleYe/open-im-tools/utils/stringutil"
 
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/mcontext"
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/mcontext"
 )
 
 type LogFormatter interface {

@@ -1,7 +1,7 @@
 package mw
 
 import (
-	"github.com/openimsdk/tools/utils/datautil"
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 	"reflect"
 )
 
