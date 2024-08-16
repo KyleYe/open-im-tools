@@ -1,8 +1,9 @@
 package mw
 
 import (
-	"github.com/openimsdk/tools/utils/datautil"
 	"reflect"
+
+	"github.com/KyleYe/open-im-tools/utils/datautil"
 )
 
 // ReplaceNil initialization nil values.

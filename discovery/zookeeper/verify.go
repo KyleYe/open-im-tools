@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/KyleYe/open-im-tools/errs"
 	"github.com/go-zookeeper/zk"
-	"github.com/openimsdk/tools/errs"
 	"google.golang.org/grpc"
 )
 

@@ -15,16 +15,17 @@
 package mw
 
 import (
-	"github.com/golang-jwt/jwt/v4"
-	"github.com/openimsdk/tools/log"
-	"github.com/openimsdk/tools/tokenverify"
 	"net/http"
 	"strings"
 
+	"github.com/KyleYe/open-im-tools/log"
+	"github.com/KyleYe/open-im-tools/tokenverify"
+	"github.com/golang-jwt/jwt/v4"
+
+	"github.com/KyleYe/open-im-protocol/constant"
+	"github.com/KyleYe/open-im-tools/apiresp"
+	"github.com/KyleYe/open-im-tools/errs"
 	"github.com/gin-gonic/gin"
-	"github.com/openimsdk/protocol/constant"
-	"github.com/openimsdk/tools/apiresp"
-	"github.com/openimsdk/tools/errs"
 )
 
 // CorsHandler gin cross-domain configuration.

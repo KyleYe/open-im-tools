@@ -6,7 +6,6 @@ package rotatelogs
 
 import (
 	"fmt"
-	"github.com/openimsdk/tools/log/file-rotatelogs/internal/fileutil"
 	"io"
 	"os"
 	"path/filepath"
@@ -14,6 +13,8 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/KyleYe/open-im-tools/log/file-rotatelogs/internal/fileutil"
 
 	strftime "github.com/lestrrat-go/strftime"
 	"github.com/pkg/errors"

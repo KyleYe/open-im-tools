@@ -17,7 +17,7 @@ package validation
 import (
 	"reflect"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 // Validator defines the interface for configuration validators.

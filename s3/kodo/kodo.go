@@ -28,13 +28,13 @@ import (
 	"strings"
 	"time"
 
+	"github.com/KyleYe/open-im-tools/errs"
+	"github.com/KyleYe/open-im-tools/s3"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	awss3config "github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	awss3 "github.com/aws/aws-sdk-go-v2/service/s3"
 	awss3types "github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/openimsdk/tools/errs"
-	"github.com/openimsdk/tools/s3"
 	"github.com/qiniu/go-sdk/v7/auth"
 	"github.com/qiniu/go-sdk/v7/storage"
 )

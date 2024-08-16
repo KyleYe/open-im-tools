@@ -4,8 +4,9 @@
 package main
 
 import (
-	"github.com/openimsdk/tools/utils/mageutil"
 	"syscall"
+
+	"github.com/KyleYe/open-im-tools/utils/mageutil"
 )
 
 func setMaxOpenFiles() error {
