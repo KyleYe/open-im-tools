@@ -23,15 +23,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/openimsdk/tools/s3"
-	"github.com/tencentyun/cos-go-sdk-v5"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/s3"
+	"github.com/tencentyun/cos-go-sdk-v5"
+
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 const (

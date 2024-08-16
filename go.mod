@@ -1,4 +1,4 @@
-module github.com/openimsdk/tools
+module github.com/KyleYe/open-im-tools
 
 go 1.21
 
@@ -6,6 +6,7 @@ toolchain go1.21.8
 
 require (
 	github.com/IBM/sarama v1.43.0
+	github.com/KyleYe/open-im-protocol v0.1.63
 	github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-zookeeper/zk v1.0.3
@@ -15,7 +16,6 @@ require (
 	github.com/lestrrat-go/file-rotatelogs v2.4.0+incompatible
 	github.com/magefile/mage v1.15.0
 	github.com/minio/minio-go/v7 v7.0.69
-	github.com/openimsdk/protocol v0.0.63
 	github.com/pkg/errors v0.9.1
 	github.com/redis/go-redis/v9 v9.2.1
 	github.com/shirou/gopsutil v3.21.11+incompatible

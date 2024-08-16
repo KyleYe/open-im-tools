@@ -17,7 +17,7 @@ package encoding
 import (
 	"encoding/base64"
 
-	"github.com/openimsdk/tools/errs"
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 // Base64Encode converts input string data to a Base64-encoded string.

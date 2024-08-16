@@ -17,8 +17,8 @@ package tokenverify
 import (
 	"testing"
 
+	"github.com/KyleYe/open-im-protocol/constant"
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/openimsdk/protocol/constant"
 )
 
 var secret = "OpenIM_server"

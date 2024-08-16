@@ -1,10 +1,11 @@
 package apiresp
 
 import (
-	"github.com/openimsdk/protocol/friend"
-	"github.com/openimsdk/protocol/wrapperspb"
-	"github.com/openimsdk/tools/utils/jsonutil"
 	"testing"
+
+	"github.com/KyleYe/open-im-protocol/friend"
+	"github.com/KyleYe/open-im-protocol/wrapperspb"
+	"github.com/KyleYe/open-im-tools/utils/jsonutil"
 )
 
 func TestName(t *testing.T) {

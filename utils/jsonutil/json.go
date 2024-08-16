@@ -16,7 +16,8 @@ package jsonutil
 
 import (
 	"encoding/json"
-	"github.com/openimsdk/tools/errs"
+
+	"github.com/KyleYe/open-im-tools/errs"
 )
 
 func JsonMarshal(v any) ([]byte, error) {

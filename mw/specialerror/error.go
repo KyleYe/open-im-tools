@@ -14,7 +14,7 @@
 
 package specialerror
 
-import "github.com/openimsdk/tools/errs"
+import "github.com/KyleYe/open-im-tools/errs"
 
 var handlers []func(err error) errs.CodeError
 
