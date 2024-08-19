@@ -6,7 +6,7 @@ toolchain go1.21.8
 
 require (
 	github.com/IBM/sarama v1.43.0
-	github.com/KyleYe/open-im-protocol v0.2.69
+	github.com/KyleYe/open-im-protocol v0.3.69
 	github.com/aliyun/aliyun-oss-go-sdk v3.0.2+incompatible
 	github.com/aws/aws-sdk-go-v2 v1.23.1
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.5.1 // indirect
